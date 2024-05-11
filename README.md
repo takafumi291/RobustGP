@@ -51,7 +51,7 @@ All the experiments from Burt et al (2020) are included  in the ```robustgp_expe
 
 ## Code guidelines
 For using the initialisation code:
-- Make sure that [GPflow](https://github.com/GPflow/GPflow) is installed, followed by running ```pip setup.py develop```.
+- Make sure that [GPflow](https://github.com/GPflow/GPflow) is installed, followed by running ```python setup.py develop```.
 - Tests can be run using ```pytest -x --cov-report html --cov=robustgp```.
 
 For running the experiments
